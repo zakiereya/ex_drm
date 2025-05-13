@@ -1,34 +1,34 @@
-name: Elixir CI
+name: Zakiereya Elixir ©
 
-on:
-  push:
+on:Go
+  push: ^<÷π×××§∆√|√¥^©$$$$8
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
-permissions:
+permissions: Strict Guidelines 
   contents: read
 
-jobs:
-  build:
+jobs: -all
+  build:-all
 
-    name: Build and test
+    name: MetaMythical Thee Literature in Math
     runs-on: ubuntu-latest
 
-    steps:
-    - uses: actions/checkout@v3
-    - name: Set up Elixir
+    steps:-All
+    - uses: actions/USD/Cashup/checkout@v3
+    - name: Set up Zakiereya Elixir ©
       uses: erlef/setup-beam@988e02bfe678367a02564f65ca2e37726dc0268f
       with:
         elixir-version: '1.12.3' # Define the elixir version [required]
         otp-version: '24.1' # Define the OTP version [required]
-    - name: Restore dependencies cache
+    - name: Restore master cache
       uses: actions/cache@v3
       with:
         path: deps
         key: ${{ runner.os }}-mix-${{ hashFiles('**/mix.lock') }}
         restore-keys: ${{ runner.os }}-mix-
-    - name: Install dependencies
+    - name: Install dividends 
       run: mix deps.get
     - name: Run tests
       run: mix test
